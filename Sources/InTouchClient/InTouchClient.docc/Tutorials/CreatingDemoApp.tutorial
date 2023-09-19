@@ -1,0 +1,59 @@
+@Tutorial(time: 15) {
+    @Intro(title: "Creating voice calling application") {
+        This tutorial guides you through building a simple app using InTouchClient
+    }
+    
+    @Section(title: "Create a new project and add InTouchClient") {
+        @ContentAndMedia {
+            Create and configure an Xcode project that uses InTouchClient
+        }
+        
+        @Steps {
+            @Step {
+                Create a new project using the iOS App template
+                
+                @Image(source: "create-app.png", alt: "Create iOS App")
+            }
+            
+            @Step {
+                Enter an app name as Product Name
+                
+                @Image(source: "name-app.png", alt: "Create iOS App")
+            }
+            
+            @Step {
+                Select SwiftUI App from the pop-up menu 
+                
+                @Image(source: "name-app.png", alt: "Create iOS App")
+            }
+            
+            @Step {
+                Add InTouchClient as a dependency to the project
+                
+                @Image(source: "spm.png", alt: "Add InTouchClient")
+            }
+        }
+    }
+    
+    @Section(title: "First Voice Call using InTouchClient") {
+        @ContentAndMedia {
+            Create InTouchClient with your Configuration and make a call 
+        }
+        
+        @Steps {
+            @Step {
+                Create InTouchClient with your Configuration
+                
+                @Code(name: "CallViewModel.swift", file: call-view-model-1.swift) {
+                    @Image(source: "preview-1.png", alt: "Preview")
+                }
+            }
+            
+            @Step {
+                Conform CallClientDelegate and handle a call status and call messages
+                
+                @Code(name: "CallViewModel.swift", file: call-view-model-2.swift) {}
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+@Tutorials(name: "InTouchClient") {
+    @Intro(title: "Meet InTouchClient") {
+        Get started with InTouchClient by building the demo app.
+    }
+    
+    @Chapter(name: "InTouchClient Essentials") {
+        Create a simple voice calling application with InTouchClient
+        
+        @Image(source: "preview-1.png", alt: "Chapter Header Image")
+        
+        @TutorialReference(tutorial: "doc:CreatingDemoApp")
+    }
+}

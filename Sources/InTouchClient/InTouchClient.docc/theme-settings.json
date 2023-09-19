@@ -1,0 +1,26 @@
+{
+  "meta": {},
+  "theme": {
+    "code": {
+      "indentationWidth": 2
+    },
+    "color": {
+      "doc-link": "#7D33FF",
+      "doc-link-hover": "#5d00ff",
+      "doc-step-focused": {
+        "light": "#7d33ff17",
+        "dark": "#7D33FF"
+      },
+      "link": "var(--color-doc-link)",
+      "nav-link-color-hover": "var(--color-doc-link-hover)",
+      "fill-gray-quaternary": "var(--color-doc-step-focused)",
+      "navigator-item-hover": "var(--color-doc-step-focused)"
+    },
+    "typography": {
+      "html-font": ""
+    }
+  },
+  "features": {
+    "docs": {}
+  }
+}
